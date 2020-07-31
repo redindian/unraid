@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2020-07-30</Date>
+  <Beta>False</Beta>
+  <Category>MediaApp:Photos MediaServer:Photos</Category>
+  <Name>digiKam</Name>
+  <Project>https://digikam.org/</Project>
+  <Changes>
+[center][img width='155px' src='https://www.digikam.org/img/digikam_oxygen.svg'][/center]
+
+[center][font size=4]DigiKam Change Log[/font][/center]
+
+[font size=3]2020.07.30[/font]
+- Initial Release
+  </Changes>
+  <Overview>
+    DigiKam is an advanced open-source digital photo management application that runs on Linux, Windows, and MacOS. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files.
+  </Overview>
+  <Description>
+    DigiKam is an advanced open-source digital photo management application that runs on Linux, Windows, and MacOS. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files.</Description>
+  <Registry>https://registry.hub.docker.com/u/redindian</Registry>
+  <GitHub>https://github.com/redindian/arch-digikam</GitHub>
+  <Repository>redindian/arch-digikam</Repository>
+  <Support>https://www.digikam.org/</Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>6080</HostPort>
+        <ContainerPort>6080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>WEBPAGE_TITLE</Name>
+      <Value>Tower</Value>
+    </Variable>
+    <Variable>
+      <Name>VNC_PASSWORD</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>UMASK</Name>
+      <Value>000</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/data</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:6080]/vnc.html?resize=remote&amp;host=[IP]&amp;port=[PORT:6080]&amp;autoconnect=1</WebUI>
+  <Banner></Banner>
+  <Icon>https://www.digikam.org/img/digikam_oxygen.svg</Icon>
+</Containers>
