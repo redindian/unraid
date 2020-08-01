@@ -76,7 +76,7 @@ The application covers the photographic workflow consisting of these major stage
     </Volume>
     <Volume>
       <HostDir>/mnt/user/appdata/data</HostDir>
-      <ContainerDir>/data</ContainerDir>
+      <ContainerDir>/home/nobody/Pictures</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
