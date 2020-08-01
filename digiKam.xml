@@ -6,7 +6,7 @@
   <Name>digiKam</Name>
   <Project>https://digikam.org/</Project>
   <Changes>
-[center][img width='155px' src='https://www.digikam.org/img/digikam_oxygen.svg'][/center]
+[center][img width='155px' src='https://raw.githubusercontent.com/redindian/unraid/master/digiKam.png'][/center]
 
 [center][font size=4]DigiKam Change Log[/font][/center]
 
@@ -70,5 +70,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:6080]/vnc.html?resize=remote&amp;host=[IP]&amp;port=[PORT:6080]&amp;autoconnect=1</WebUI>
   <Banner></Banner>
-  <Icon>https://www.digikam.org/img/digikam_oxygen.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/redindian/unraid/master/digiKam.png</Icon>
 </Containers>
