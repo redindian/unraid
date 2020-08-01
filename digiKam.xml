@@ -10,14 +10,26 @@
 
 [center][font size=4]DigiKam Change Log[/font][/center]
 
-[font size=3]2020.07.30[/font]
-- Initial Release
+[font size=3]2020.07.19[/font]
+- DigiKam 7.0.0
+https://www.digikam.org/news/2020-07-19-7.0.0_release_announcement/
   </Changes>
   <Overview>
     DigiKam is an advanced open-source digital photo management application that runs on Linux, Windows, and MacOS. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files.
   </Overview>
   <Description>
-    DigiKam is an advanced open-source digital photo management application that runs on Linux, Windows, and MacOS. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files.</Description>
+Summary
+The following is a concise overview of features and tools available in digiKam. 
+The application covers the photographic workflow consisting of these major stages:
+
+* Setup your collections
+* Import photos, raw files, and videos
+* Organize your collections
+* Search in your collections
+* Browse, compare, and view items in your collections
+* Post-processing, editing, assembling, and transforming your photos
+* Share and publish photos  
+  </Description>
   <Registry>https://registry.hub.docker.com/u/redindian</Registry>
   <GitHub>https://github.com/redindian/arch-digikam</GitHub>
   <Repository>redindian/arch-digikam</Repository>
